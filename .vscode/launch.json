@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: APP_MODE",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/app_mode.py",
+      "console": "integratedTerminal",
+      "env": {
+        "APP_MODE": "desarrollo"
+      }
+    }
+  ]
+}
